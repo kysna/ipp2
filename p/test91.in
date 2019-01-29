@@ -1,0 +1,7 @@
+# priklad z prednasky na odstraneni nedeterminismu (slajd 25) - chybi nektere carky
+( {s q1, q2 f}, {a , b , c} 
+  {s a -> s  s b -> q1  s b -> f, s c -> q2  s c -> f#ahoj
+q1 b -> q1, q1 b -> f
+q2 c -> q2  q2 c -> f f a -> f}
+  s
+  {f})

@@ -1,0 +1,3 @@
+# priklad syntakticky chybneho automatu kvuli smeti na konci 
+({p},{a},{p 'a' -> p},p,{p})
+p -> p

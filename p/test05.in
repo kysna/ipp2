@@ -1,0 +1,15 @@
+# příklad z přednášky na odstranění nedeterminismu (slajd 25):
+( {s, q1# komentář k vynechání ss 'c' -> q }
+,
+q2, f}, {á, '#', ' '}, 
+  {s á -> s,  s'#'->q1, s '#' -> f, s ' ' -> q2, s ' ' -> f,
+   q1 '#' -> q1, q1 '#' -> f, q2' '->q2, q2 ' ' ->
+f, 
+f
+á
+->
+f
+},
+  s, {f})
+
+  # další koncový komentář +ěščřžýáíé=

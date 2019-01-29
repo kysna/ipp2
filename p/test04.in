@@ -1,0 +1,7 @@
+# příklad z přednášky na odstranění nedeterminismu (slajd 25):
+( {s, q1, q2, f}, {á, b, č}, 
+  {s á -> s, s b -> q1, s b -> f, s 'č' -> q2, s č -> f,
+   q1 b -> q1, q1 b -> f, q2'č' -> q2, q2 č -> f, f á -> f},
+  s, {f})
+
+  # další koncový komentář +ěščřžýáíé=

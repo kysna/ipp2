@@ -1,0 +1,11 @@
+# Příklad konečného automatu ve vstupním formátu úlohy DKA
+({s, p,q,r		,nonTermState, # stav neukončující i nedostupný
+fin1}, # stav bude označen jako koncový
+{a, '''', '{', ')', 'b', č ,b }, {s č->p,
+q'a' ->   r, q'{'-> r, r a->r, p''''->q ,
+r->s # takto vypadá pravidlo, které nečte vstup; lze i takto: r '' -> s
+},
+# následuje komponenta definující startující stav
+r
+, {fin1, s, r} ) # koncové stavy a ukončení definice automatu
+  # zde může následovat libovolný počet bílých znaků nebo komentářů

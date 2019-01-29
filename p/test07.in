@@ -1,0 +1,5 @@
+# priklad z prednasky IFJ04 na odstraneni epsilon prechodu
+( {s, q1, q2, f}, {a, b, c}, 
+  {s a -> s, s -> q1, q1 b -> q1, q1 b -> f, s -> q2,
+   q2 c -> q2, q2 c -> f, f a -> f},
+  s, {f})

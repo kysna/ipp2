@@ -1,0 +1,6 @@
+s a -> s  s b -> q1  s b -> f, s c -> q2
+s c -> f.
+# jen pravidla a navic bez carek, zahazuje se komentář a bile znaky i mimo pravidla
+q1 b -> q1, q1 b -> f. q2 c -> q2  q2 c -> f	
+f a -> f.
+# jen pravidla a navic bez carek, zahazuje se komentář a bile znaky i mimo pravidla
